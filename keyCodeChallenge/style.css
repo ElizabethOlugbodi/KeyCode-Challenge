@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    padding:100px 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+/*     
+.container .p {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align:left;
+} */
+
+
+.container{
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container div {
+    background-color:aliceblue;
+    border-color: rgba(217, 255, 0, 0.945);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1em;
+    box-shadow: 0px 0px 10px 0px;
+    transition: .3s ease box-shadow;
+}
+
+.container div:hover {
+    box-shadow: 0px 0px 60px 0px #0ab334;
+}
+
+.container h2{
+    margin: 20px 0;
+    font-size: 60px;
+}
+
+button.txt {
+    padding: 0.6em 6em;
+    font-weight: 600;
+    border-radius: 20px 20px 20px 20px;
+    border-color: rgba(217, 255, 0, 0.945);
+    color:black;
+    background-color:#13b93c;
+    cursor: pointer;
+    margin: 1em;
+    display: flex;
+    align-items:flex-start;
+    justify-content:initial;
+}
+
+.txt {
+    padding: 0.6em 3em!important;
+    box-shadow: none!important;
+}
+
+.arrow {
+    background-color: transparent!important;
+    padding: 0 0px!important;
+    box-shadow: none!important;
+    cursor: default!important;
+}
+
+.arrow img{
+    width: 80px;
+}
+
+.overlay{
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.overlay.hide {
+    display:none;
+}
